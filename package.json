@@ -1,0 +1,25 @@
+{
+  "name": "schemap",
+  "version": "1.0.0",
+  "description": "A simple JSONSchema collection manager",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "jsonschema"
+  ],
+  "author": "sandro pasquali <spasquali@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^1.4.5",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "apt-tap": "^1.0.1",
+    "apt-tap-basic": "^1.0.0",
+    "blue-tape": "^0.1.10",
+    "bluebird": "^2.10.2",
+    "glob": "^5.0.15"
+  }
+}
